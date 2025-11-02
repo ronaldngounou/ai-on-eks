@@ -1,5 +1,6 @@
 ---
 sidebar_label: Inference Charts
+sidebar_position: 1
 ---
 
 # AI on EKS Inference Charts
