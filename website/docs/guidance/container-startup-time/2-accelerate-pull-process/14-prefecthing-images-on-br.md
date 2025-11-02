@@ -85,7 +85,3 @@ spec:
         kmsKeyID: "arn:aws:kms:<REGION>:<ACCOUNT_ID>:key/1234abcd-12ab-34cd-56ef-1234567890ab" # Specify KMS ID if you use custom KMS key
         snapshotID: snap-0123456789 # Specify your snapshot ID here
 ```
-
-# End-to-End deployment example
-
-An end-to-end deployment example can be found in [Stable Diffusion on GPU](../../../blueprints/inference/GPUs/stablediffusion-gpus).

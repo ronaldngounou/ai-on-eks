@@ -18,16 +18,14 @@ Get started quickly with our pre-configured Helm charts that support multiple mo
 
 ## Hardware-Specific Guides
 
-### GPU Deployments
-Explore GPU-specific inference solutions:
+### Advanced Inference on EKS
+Explore advanced inference solutions:
 
-- [DeepSeek-R1 with Ray and vLLM](./GPUs/ray-vllm-deepseek.md)
-- [NVIDIA NIM with Llama3](./GPUs/nvidia-nim-llama3.md)
-- [NVIDIA NIM Operator](./GPUs/nvidia-nim-operator.md)
-- [vLLM with NVIDIA Triton Server](./GPUs/vLLM-NVIDIATritonServer.md)
-- [vLLM with Ray Serve](./GPUs/vLLM-rayserve.md)
-- [Stable Diffusion on GPUs](./GPUs/stablediffusion-gpus.md)
-- [AIBrix with DeepSeek](./GPUs/aibrix-deepseek-distill.md)
+- [NVIDIA NIM with Llama3](./advanced-inference/nvidia-nim-llama3.md)
+- [NVIDIA NIM Operator](./advanced-inference/nvidia-nim-operator.md)
+- [NVIDIA Dynamo](./advanced-inference/nvidia-dynamo.md)
+- [Ray Serve High Availability](./advanced-inference/rayserve-ha.md)
+- [AIBrix with DeepSeek](./advanced-inference/aibrix-deepseek-distill.md)
 
 ### Neuron Deployments (AWS Inferentia)
 Leverage AWS Inferentia chips for cost-effective inference:
@@ -35,7 +33,6 @@ Leverage AWS Inferentia chips for cost-effective inference:
 - [Llama2 on Inferentia2](./Neuron/llama2-inf2.md)
 - [Llama3 on Inferentia2](./Neuron/llama3-inf2.md)
 - [Mistral 7B on Inferentia2](./Neuron/Mistral-7b-inf2.md)
-- [Ray Serve High Availability](./Neuron/rayserve-ha.md)
 - [vLLM with Ray on Inferentia2](./Neuron/vllm-ray-inf2.md)
 - [Stable Diffusion on Inferentia2](./Neuron/stablediffusion-inf2.md)
 
@@ -54,8 +51,8 @@ AI on EKS inference solutions support multiple deployment patterns:
 | Use Case | Recommended Solution                                       | Benefits |
 |----------|------------------------------------------------------------|----------|
 | **Quick prototyping** | [Inference Charts](./inference-charts.md)                  | Pre-configured, fast deployment |
-| **GPU** | [GPU-specific guides](/docs/category/gpu-inference-on-eks) | GPU-based inference |
-| **Neuron** | [Neuron guides](/docs/category/neuron-inference-on-eks)   | Inferentia-based inference |
+| **GPU** | [GPU-specific guides](/ai-on-eks/docs/category/advanced-inference-on-eks) | GPU-based inference |
+| **Neuron** | [Neuron guides](/ai-on-eks/docs/category/neuron-inference-on-eks)   | Inferentia-based inference |
 
 ## Next Steps
 

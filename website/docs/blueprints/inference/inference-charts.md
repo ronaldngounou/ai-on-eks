@@ -331,5 +331,5 @@ kubectl logs -l leaderworkerset.sigs.k8s.io/role=leader
 
 ## Next Steps
 
-- Explore [GPU-specific configurations](/docs/category/gpu-inference-on-eks) for GPU deployments
-- Learn about [Neuron-specific configurations](/docs/category/neuron-inference-on-eks) for Inferentia deployments
+- Explore [GPU-specific configurations](/ai-on-eks/docs/category/advanced-inference-on-eks) for GPU deployments
+- Learn about [Neuron-specific configurations](/ai-on-eks/docs/category/neuron-inference-on-eks) for Inferentia deployments
